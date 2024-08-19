@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: BaseViewController {
     
     @IBOutlet weak var usernameTextField: UITextField!
     @IBOutlet weak var usernameContainer: CustomTextField!
@@ -17,17 +17,8 @@ class ViewController: UIViewController {
         updateUI()
     }
 
-
     private func updateUI(){
-        /// Initialize CustomTextField with the outlet text field
-        let customTextField = CustomTextField(labelName: "Username", textField: usernameTextField)
-        usernameContainer.addSubview(customTextField)
-        /// Set constraints to ensure the custom text field fills the container
-        customTextField.translatesAutoresizingMaskIntoConstraints = false
-        customTextField.topAnchor.constraint(equalTo: usernameContainer.topAnchor).isActive = true
-        customTextField.bottomAnchor.constraint(equalTo: usernameContainer.bottomAnchor).isActive = true
-        customTextField.leadingAnchor.constraint(equalTo: usernameContainer.leadingAnchor).isActive = true
-        customTextField.trailingAnchor.constraint(equalTo: usernameContainer.trailingAnchor).isActive = true
+        self.updateTextField(parentView: usernameContainer, label: "username", textField: usernameTextField)
     }
 }
 

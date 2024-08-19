@@ -19,6 +19,7 @@
 		041B17BD2C6FC0B900DF24CF /* CustomTextFieldUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041B17BC2C6FC0B900DF24CF /* CustomTextFieldUITestsLaunchTests.swift */; };
 		041B17CA2C6FC10A00DF24CF /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041B17C92C6FC10A00DF24CF /* CustomTextField.swift */; };
 		041B17CC2C6FC11C00DF24CF /* Extenstions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041B17CB2C6FC11C00DF24CF /* Extenstions.swift */; };
+		041F4C6E2C73C1580049849C /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041F4C6D2C73C1580049849C /* BaseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		041B17BC2C6FC0B900DF24CF /* CustomTextFieldUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextFieldUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		041B17C92C6FC10A00DF24CF /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		041B17CB2C6FC11C00DF24CF /* Extenstions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extenstions.swift; sourceTree = "<group>"; };
+		041F4C6D2C73C1580049849C /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				041B179F2C6FC0B800DF24CF /* CustomTextField.xcdatamodeld */,
 				041B17C92C6FC10A00DF24CF /* CustomTextField.swift */,
 				041B17CB2C6FC11C00DF24CF /* Extenstions.swift */,
+				041F4C6D2C73C1580049849C /* BaseViewController.swift */,
 			);
 			path = CustomTextField;
 			sourceTree = "<group>";
@@ -272,6 +275,7 @@
 				041B17972C6FC0B800DF24CF /* AppDelegate.swift in Sources */,
 				041B17992C6FC0B800DF24CF /* SceneDelegate.swift in Sources */,
 				041B17CC2C6FC11C00DF24CF /* Extenstions.swift in Sources */,
+				041F4C6E2C73C1580049849C /* BaseViewController.swift in Sources */,
 				041B17CA2C6FC10A00DF24CF /* CustomTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
