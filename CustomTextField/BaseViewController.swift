@@ -16,7 +16,7 @@ class BaseViewController: UIViewController {
     //MARK: - Methods 
     func updateTextField(parentView:CustomTextField, label: String, textField: UITextField){
         /// Initialize CustomTextField with the outlet text field
-        let customTextField = CustomTextField(labelName: "Username", textField: textField)
+        let customTextField = CustomTextField(labelName: label, textField: textField)
         parentView.addSubview(customTextField)
         /// Set constraints to ensure the custom text field fills the container
         customTextField.translatesAutoresizingMaskIntoConstraints = false

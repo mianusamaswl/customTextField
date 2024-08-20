@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		041B17972C6FC0B800DF24CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041B17962C6FC0B800DF24CF /* AppDelegate.swift */; };
 		041B17992C6FC0B800DF24CF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041B17982C6FC0B800DF24CF /* SceneDelegate.swift */; };
-		041B179B2C6FC0B800DF24CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041B179A2C6FC0B800DF24CF /* ViewController.swift */; };
+		041B179B2C6FC0B800DF24CF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041B179A2C6FC0B800DF24CF /* LoginViewController.swift */; };
 		041B179E2C6FC0B800DF24CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041B179C2C6FC0B800DF24CF /* Main.storyboard */; };
 		041B17A12C6FC0B800DF24CF /* CustomTextField.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 041B179F2C6FC0B800DF24CF /* CustomTextField.xcdatamodeld */; };
 		041B17A32C6FC0B900DF24CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 041B17A22C6FC0B900DF24CF /* Assets.xcassets */; };
@@ -20,6 +20,7 @@
 		041B17CA2C6FC10A00DF24CF /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041B17C92C6FC10A00DF24CF /* CustomTextField.swift */; };
 		041B17CC2C6FC11C00DF24CF /* Extenstions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041B17CB2C6FC11C00DF24CF /* Extenstions.swift */; };
 		041F4C6E2C73C1580049849C /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041F4C6D2C73C1580049849C /* BaseViewController.swift */; };
+		04F0381D2C750D03005EB8C8 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0381C2C750D03005EB8C8 /* LaunchViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +44,7 @@
 		041B17932C6FC0B800DF24CF /* CustomTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomTextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		041B17962C6FC0B800DF24CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		041B17982C6FC0B800DF24CF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		041B179A2C6FC0B800DF24CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		041B179A2C6FC0B800DF24CF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		041B179D2C6FC0B800DF24CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		041B17A02C6FC0B800DF24CF /* CustomTextField.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CustomTextField.xcdatamodel; sourceTree = "<group>"; };
 		041B17A22C6FC0B900DF24CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,6 +58,7 @@
 		041B17C92C6FC10A00DF24CF /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		041B17CB2C6FC11C00DF24CF /* Extenstions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extenstions.swift; sourceTree = "<group>"; };
 		041F4C6D2C73C1580049849C /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		04F0381C2C750D03005EB8C8 /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,7 +111,6 @@
 			children = (
 				041B17962C6FC0B800DF24CF /* AppDelegate.swift */,
 				041B17982C6FC0B800DF24CF /* SceneDelegate.swift */,
-				041B179A2C6FC0B800DF24CF /* ViewController.swift */,
 				041B179C2C6FC0B800DF24CF /* Main.storyboard */,
 				041B17A22C6FC0B900DF24CF /* Assets.xcassets */,
 				041B17A42C6FC0B900DF24CF /* LaunchScreen.storyboard */,
@@ -118,6 +119,8 @@
 				041B17C92C6FC10A00DF24CF /* CustomTextField.swift */,
 				041B17CB2C6FC11C00DF24CF /* Extenstions.swift */,
 				041F4C6D2C73C1580049849C /* BaseViewController.swift */,
+				04F0381C2C750D03005EB8C8 /* LaunchViewController.swift */,
+				041B179A2C6FC0B800DF24CF /* LoginViewController.swift */,
 			);
 			path = CustomTextField;
 			sourceTree = "<group>";
@@ -271,12 +274,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				041B17A12C6FC0B800DF24CF /* CustomTextField.xcdatamodeld in Sources */,
-				041B179B2C6FC0B800DF24CF /* ViewController.swift in Sources */,
+				041B179B2C6FC0B800DF24CF /* LoginViewController.swift in Sources */,
 				041B17972C6FC0B800DF24CF /* AppDelegate.swift in Sources */,
 				041B17992C6FC0B800DF24CF /* SceneDelegate.swift in Sources */,
 				041B17CC2C6FC11C00DF24CF /* Extenstions.swift in Sources */,
 				041F4C6E2C73C1580049849C /* BaseViewController.swift in Sources */,
 				041B17CA2C6FC10A00DF24CF /* CustomTextField.swift in Sources */,
+				04F0381D2C750D03005EB8C8 /* LaunchViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
